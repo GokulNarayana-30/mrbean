@@ -1,0 +1,53 @@
+body{
+    background-image: url(background.jpeg);
+    background-size: 400px;
+    background-position: 1100px;
+    background-repeat: no-repeat;    
+    background-attachment: fixed;
+    background-color: aqua;
+    animation-name: box;
+    animation-delay:2s ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes box{
+    from {background-color: aqua;}
+    to {background-color: black;}
+}  
+.eyes{
+    position: absolute;
+    top:50%;
+    transform: translate(-50%);
+    text-align: center;
+    width: 100%;
+    margin-top: -430px;
+    margin-left: 280px;
+}
+.eye{
+    width: 100px;
+    height: 85px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin:-30%;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 190px;
+    
+
+}
+.ball{
+    width: 20px;
+    height:20px; background: black;
+    position: absolute;
+    top:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+img {
+    border-radius: 10px;
+}
+
+
